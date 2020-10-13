@@ -1,7 +1,16 @@
 .intro-background {
+  display: flex;
+  flex-direction: row;
 }
 
 .intro-item {
+  display: flex;
+  flex: 1;
+  font-size: 20pt;
+  background-color: rgb(70, 129, 238);
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro-item h1,

@@ -1,17 +1,19 @@
 import React from "react";
 import "./About.css";
-import CutePic from "../../assets/bighappy.png";
+import ProfilePic from "../../assets/profilepic.png";
 
 export default function AboutScreen() {
   return (
     <div className="screen-background">
       <div className="intro-background">
         <div className="intro-item">
-          <div>here you'll put a picture of yourself</div>
+          <img src={ProfilePic} className="intro-picture" />
         </div>
         <div className="intro-item">
-          Wow wow wow Your Name is a pretty cool person! check out all these
-          details
+          Hello! I'm Jason (Korean name: Yong In) from South Korea. 
+          I'm currently a freshman at Harvard University and is intending to concentrate in Computer Science and Biomedical Engineering.
+          I am a programmer, engineer, researcher, author, tennis player, cellist, and avid reader!
+          Welcome to my page!
         </div>
       </div>
     </div>
